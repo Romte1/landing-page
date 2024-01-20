@@ -32,8 +32,10 @@ a{
 }
 
 .image {
+    display: flex;
     width:350px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
     color:#F9FAF8;
     background-color: gray;
 }
