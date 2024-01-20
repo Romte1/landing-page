@@ -23,21 +23,24 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    flex:1;
-    padding:128px 128px;
+    padding:64px 128px;
+    gap:16px;
 }
 
 .main {
     width: 350px;
+    flex:1;
 }
 
 .image {
     display: flex;
     width:350px;
+    height:220px;
     justify-content: center;
     align-items: center;
     color:#F9FAF8;
     background-color: gray;
+
 }
 
 .mainText{
@@ -68,6 +71,30 @@ a{
     display: flex;
     flex-direction: column;
     flex:1;
+    align-items: center;
+    gap:8px;
+    padding:16px;
+}
+
+.random {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.illustrations {
+    display: flex;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 256px;
+}
+
+img{
+    border: 2px solid #3882F6;
+    min-height: 80px;
+    min-width:80px;
+    border-radius: 8px;
+    
 }
 
 .quote {
@@ -108,10 +135,23 @@ a{
 .signUp2{
     background-color: #3882F6;
     border-radius: 8px;
+    display: flex;
+    padding: 32px 64px;
+    gap:64px
 }
 
+.btnSignUp2 {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border-radius: 8px;
+    padding:4px 16px;
+    font-weight: bold;
+}
 
-
+.btnSignUp2:hover {
+    background-color: #38baf6;
+}
 
 ul{
     list-style-type: none;
