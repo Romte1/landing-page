@@ -72,8 +72,9 @@ a{
     flex-direction: column;
     flex:1;
     align-items: center;
-    gap:8px;
+    gap:32px;
     padding:16px;
+    min-height: 300px;
 }
 
 .random {
@@ -94,6 +95,7 @@ img{
     min-height: 80px;
     min-width:80px;
     border-radius: 8px;
+    margin-bottom: 8px;
     
 }
 
@@ -105,6 +107,7 @@ img{
     justify-content: center;
     align-items: center;
     padding:0 256px;
+    min-height: 400px;
 }
 
 .quoteText {
@@ -130,6 +133,7 @@ img{
     flex:1;
     justify-content: center;
     align-items: center;
+    min-height:250px
 }
 
 .signUp2{
